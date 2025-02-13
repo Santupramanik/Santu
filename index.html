@@ -223,6 +223,20 @@
             transition: background 0.3s ease;
         }
 
+        .santugpt {
+            display: inline-block;
+            padding: 0.5rem 1rem;
+            background: #a8b2d1;
+            color: #0a0a0a;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-decoration: none;
+            border-radius: 4px;
+            transition: background 0.3s ease;
+        }
+        .santugpt:hover{
+            background: #dde453;
+        }
+
         .read-more:hover {
             background: #4cd6b4;
         }
@@ -266,6 +280,48 @@
                 display: none;
             }
         }
+
+
+
+
+        /* style for Button in blog */
+
+        @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+:root {
+  --white: #eee;
+  --black: #141414;
+  --color: #3333ff;
+  scroll-behavior: smooth;
+}
+
+
+
+.link {
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  position: relative;
+}
+.link span,
+.link i {
+  position: relative;
+}
+.link i {
+  margin-left: 0.5em;
+}
+.link .color {
+  width: 5em;
+  height: 2em;
+  border-radius: 2em;
+  background-color: var(--color);
+  position: absolute;
+  top: 50%;
+  transform: translatey(-50%);
+  left: -0.65em;
+}
+
     </style>
 </head>
 
@@ -292,6 +348,7 @@
                     <strong>technology</strong> and <strong>Coding</strong>and exploring new ideas.As a tech and AI
                     enthusiast, I love exploring new ideas and constantly learning to innovate and grow. </p>
                 <a href="#about" class="read-more">Learn More</a>
+                <a href="https://santugpt.onrender.com" class="santugpt">Try SantuGPT</a>
             </div>
             <div class="hero-image">
                 <img src="https://blogger.googleusercontent.com/img/a/AVvXsEgH-8hvui-9ka74ALczD-D4rs0H4BuBiXptOVo1tTDwABxgmwlZ3A8ITLAYkxBiXTi7wCw64FjKN1Y4tJcjyh0KBbaLZ0bPrhie3vyG9gK6ORyWrEhLOlYPDBiVF54JibWoup9z3M4aHRO9wW3bmVHLWNAkzlu9TZLifriBRZQw5fFbNr9lJTBhqWpXAPVA" alt="Siddheswar Pramanik" class="floating-image">
@@ -370,7 +427,7 @@
                 </div>
             </div>
             <div class="blog-card">
-                <img src="http://tiny.cc/raa4001" alt="Blog 2" class="blog-image">
+                <img src="https://lh5.googleusercontent.com/mjv7h7a2aN516PnCx8hFyX8wVyCpJJlhIIUYpQlWG7JyXNac63M3O7vwwbhZrJZjJkxN1QO0ZyNtUQrcozM_ACPOAk2iSL83sb6BZ4M7p3NRE6YFm-Agj5d1qsnxqeLHvw=w1280" alt="Blog 2" class="blog-image">
                 <div class="blog-content">
                     <h3 class="blog-title">Clicks</h3>
                     <p class="blog-excerpt">Explore my collection of raw and unfiltered captures...</p>
@@ -378,13 +435,31 @@
                 </div>
             </div>
             <div class="blog-card">
-                <img src="http://tiny.cc/3ba4001" alt="Blog 3" class="blog-image">
+                <img src="https://lh3.googleusercontent.com/gg/AJxt1KP5lRT5aCjzmCeX8MfipxXtuJuonv6tRrqwxwGbUY6eNasH46DwlI_66YavMm9fnOMo3QlyAbtwYbpLDnWQZ1VS0uaHvUxs0hADciUe8_eUwSDaGHWGgrqJc5luhIbsqNMy9zVkMb4tmdiVxXs6WoQMhGXWnpbQG20nXlAxqVSo1ggJfo6V" alt="Blog 3" class="blog-image">
                 <div class="blog-content">
                     <h3 class="blog-title">Projects</h3>
                     <p class="blog-excerpt">Check out my latest project , Student tracker site...</p>
                     <a href="https://santupramanik.github.io/trackmyspend/" class="read-more">View Projects</a>
                 </div>
             </div>
+
+
+            <div class="blog-card">
+                <img src="https://drive.google.com/file/d/1hCR4w3oNapYfleZP8iSKbMISVdArmOI2/preview" alt="Blog 3" class="blog-image">
+                <div class="blog-content">
+                    <h3 class="blog-title">Project- SantuGPT</h3>
+                    <p class="blog-excerpt">Try SantuGPT , my latest project </p>
+                    <!-- <a href="https://santugpt.onrender.com" class="read-more" class> Try out SantuGPT <i class="fa-solid fa-arrow-right"></i></a> -->
+                    <div class="wrapper">
+                        <a class="link" href="#" target="_blank">
+                          <div class="color"></div>
+                          <span>Try out SantuGPT</span>
+                          <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                      </div>
+                </div>
+            </div>
+            
         </div>
     </section>
 
@@ -395,9 +470,7 @@
             <a href="https://www.instagram.com/s_pramanik1/"><i class="fab fa-instagram"></i></a>
             <a href="mailto:pramaniksiddheswar26@gmail.com"><i class="fas fa-envelope"></i></a>
         </div>
-
-        <p class="madewithloive" style="text-align: center;"><a href="https://github.com/Santupramanik" style="text-decoration: none; color: #fff;" class="love" >Made with 💚 by <strong style="color: #ffd700;">Santu</strong></a></p>
-        <p>© 2024 Siddheswar Pramanik. All rights reserved.</p>
+        <p>© 2025 Siddheswar Pramanik. All rights reserved.</p>
     </footer>
     <!-- <footer class="footer">
         <div class="social-links">
